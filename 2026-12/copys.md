@@ -48,9 +48,9 @@ Comenta CANAL y lo vemos para tu negocio.
 #MetaAds #TikTokAds #MarketingDigital #Zynel360
 
 ## 15 dic · IG+FB · PP2 · Caso O3 Energy
-Una calculadora de ahorro en tu web. Tres pasos. Un lead.
+Calcula tu ahorro en 2 minutos. Y deja tu contacto.
 
-Para O3 Energy montamos una web con calculadora de ahorro en tres pasos (consumo, vivienda y contacto) que convierte visitas en contactos.
+Para O3 Energy montamos una web con calculadora de ahorro (tarifa, vivienda y consumo) que convierte visitas en contactos.
 
 ¿La tuya también capta contactos? Comenta WEB y la revisamos.
 
