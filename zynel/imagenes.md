@@ -5,16 +5,16 @@ Sirve para no repetir imágenes entre meses. Cada mes se añade lo usado y lo qu
 ## Enero 2027 (tanda de 20 imágenes + libres de diciembre)
 
 Usadas:
-- robot-handshake-human-background-futuristic-digital-age.jpg → R1 (7 ene)
-- representation-user-experience-interface-design.jpg → C1 portada (12 ene)
-- people-connected-social-media.jpg → R2 (21 ene)
+- 4 fotos de manos robot y humana (mano abierta, manos que se acercan, dedo que toca, choque de manos; subidas 18 oct) → R1 (7 ene)
+- 5 fotos de móviles (manos con móvil x3, chat con burbujas, hombre con taza junto a ventana; subidas 18 oct) → R2 (21 ene)
+- social-media-marketing-concept-marketing-with-applications.jpg (686ae777) → C1 portada (12 ene)
 - still-life-colorful-typewriter.jpg (la del folio, fondo azul) → C2 portada (26 ene)
 - v955-audi-12.jpg (3x3 de ilustraciones) → C2 diapositiva final (26 ene)
 - top-viewtop-view-manager-employee-doing-teamwork-business-office-looking-charts-laptop-display.jpg → LinkedIn (27 ene)
 - portrait-woman-holding-vinyl-disc.jpg → PP (29 ene)
 - (ya en GHL, subidas por Carlos) pc-cloud-technology… SaaS → posts SaaS 19-20 ene
 
-Libres para febrero: las otras 2 máquinas de escribir, online-networking-handshake, woman-hand-holding-smart-phone, young-russian-girl-with-laptop, young-woman-using-laptop-home, saas-concept-collage, social-media-marketing-concept (x2), young-cute-confident-student, senior-man-talking-mobile-phone, Wavy_Tech y las 7 libres de diciembre.
+Libres para febrero: representation-user-experience-interface-design (tablet), robot-handshake-human-background-futuristic-digital-age, people-connected-social-media, las otras 2 máquinas de escribir, online-networking-handshake, woman-hand-holding-smart-phone, young-russian-girl-with-laptop, young-woman-using-laptop-home, saas-concept-collage, social-media-marketing-concept (x2), young-cute-confident-student, senior-man-talking-mobile-phone, Wavy_Tech y las 7 libres de diciembre.
 
 ## Diciembre 2026 (tanda de 15 imágenes)
 
