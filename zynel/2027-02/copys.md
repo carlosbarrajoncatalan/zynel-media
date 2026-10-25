@@ -31,3 +31,29 @@ Sin sorpresas y con cifras desde el primer mes.
 ¿Qué esperas tú de los primeros 30 días con una agencia?
 
 #Agencia #MarketingDigital #Estrategia #Zynel360
+
+## 9 feb · IG+FB · C1 · Día de Internet Segura (carrusel, 6 diapositivas)
+Pilar: Educación (seguridad web). KPI: guardados y compartidos.
+
+Hoy es el Día de Internet Segura. 🔒 ¿Tu web pasaría la revisión?
+
+4 señales de que no es tan segura como crees:
+1️⃣ Sin candado (HTTPS)
+2️⃣ Sin actualizar
+3️⃣ Sin copias de seguridad
+4️⃣ Accesos compartidos
+
+Guárdalo y envíaselo a quien lleve tu web. ¿Cuántas cumple la tuya? Cuéntanoslo en los comentarios.
+
+#InternetSegura #Ciberseguridad #DiseñoWeb #MarketingDigital #Zynel360
+
+## 23 feb · IG+FB · C2 · Tu marca no es un logo (carrusel, 6 diapositivas)
+Pilar: Servicios (identidad de marca). KPI: guardados y mensajes directos.
+
+Tu marca no es un logo. 🎨
+
+Un logo es solo el principio. Una marca es todo lo que la gente percibe de ti: color, tipografía, tono de voz y la experiencia en tu web y en tus redes.
+
+¿Se reconocería la tuya sin el logo? Si dudas, escríbenos y empezamos por definir tu identidad.
+
+#Branding #IdentidadDeMarca #DiseñoWeb #MarketingDigital #Zynel360
