@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"></head><body><div id="stage"></div>
+<script src="engine.js"></script><script>
+// 1) pregunta 0-3.2: hombre con el móvil
+const s1=scene(0,3.0,'#d9d4d0');
+const p1=photo(s1,'a/side_rc.jpg',{height:'1920px',left:'-760px',top:'0'});p1.style.transformOrigin='540px 900px';kb(p1,0,3.4,'scale(1.0)','scale(1.07)');
+mk(s1,'',null,{position:'absolute',left:0,right:0,bottom:0,height:'900px',background:'linear-gradient(transparent,rgba(11,43,62,.85))'});
+phrase(s1,0,1.5,'<span class="nv">¿Facebook</span><br><span class="nv">ya no sirve?</span>',{top:'1100px',fontSize:'120px'});
+phrase(s1,1.5,3.0,'<span class="hl">Sí sirve.</span>',{top:'1180px',fontSize:'132px'});
+// 2) tu cliente está ahí 3.2-7.0
+const s2=scene(3.0,6.6,'#ffffff');
+const p2=photo(s2,'a/tab.jpg',{height:'1920px',left:'-460px',top:'470px'});p2.style.transformOrigin='540px 1250px';kb(p2,3.0,6.8,'scale(1.0)','scale(1.05)');
+phrase(s2,3.1,6.6,'Tu cliente de <span class="hl t">35 a 55</span> está ahí:',{top:'150px',color:NAVY,fontSize:'88px'});
+[['Grupos de barrio',TEAL,NAVY,3.8],['Marketplace',YEL,NAVY,4.6],['Mensajes directos',CORAL,'#fff',5.4]].forEach((c,i)=>{
+ const n=mk(s2,'chip',`<span style="width:56px;height:56px;border-radius:50%;background:${c[2]};opacity:.9;display:inline-block;flex:none;margin-right:10px"></span>${c[0]}`,{top:(520+i*150)+'px',background:c[1],color:c[2]});show(n,c[3],6.6);pop(n,c[3],40);});
+// 3) zona 7.0-9.8
+const s3=scene(6.6,9.6,TEAL);
+const grid=mk(s3,'',null,{position:'absolute',inset:'0',backgroundImage:'linear-gradient(#ffffff30 3px,transparent 3px),linear-gradient(90deg,#ffffff30 3px,transparent 3px)',backgroundSize:'120px 120px'});
+const cx=540,cy=640;
+const big=mk(s3,'',null,{position:'absolute',left:cx-330+'px',top:cy-330+'px',width:'660px',height:'660px',borderRadius:'50%',background:'#F2A71B33',border:'8px dashed '+NAVY});
+A(big,6.7,2.4,[{transform:'scale(.35)'},{transform:'scale(1)'}],'ease-out');
+mk(s3,'',null,{position:'absolute',left:cx-44+'px',top:cy-44+'px',width:'88px',height:'88px',borderRadius:'50%',background:CORAL,border:'14px solid #fff',boxShadow:'0 10px 30px rgba(0,0,0,.25)'});
+const rad=mk(s3,'tag','Radio: 1 km',{top:'1030px',left:'50%',background:NAVY,color:'#fff',transform:'translateX(-50%)',whiteSpace:'nowrap'});count(rad,6.8,8.8,1,12,v=>'Radio: '+Math.round(v)+' km');
+phrase(s3,6.7,9.6,'<span class="nv">Con Meta Ads</span><br><span class="nv">llegas a tu zona.</span>',{top:'1280px',fontSize:'104px'});
+// 4) te compran 9.8-12.2
+const s4=scene(9.6,12.0,NAVY);
+const p4=photo(s4,'a/mega.jpg',{height:'1920px',left:'-180px',top:'0'});p4.style.transformOrigin='540px 600px';kb(p4,9.6,12.2,'scale(1.0)','scale(1.06)');
+mk(s4,'',null,{position:'absolute',left:0,right:0,bottom:0,height:'760px',background:'linear-gradient(transparent,rgba(11,43,62,.9))'});
+phrase(s4,9.7,12.0,'<span class="nv">Y te compra</span><br><span class="hl">a ti.</span>',{top:'1230px',fontSize:'124px'});
+endCard(12.0,15.6,NAVY,YEL);
+seek(0);window.ready=true;
+</script></body></html>

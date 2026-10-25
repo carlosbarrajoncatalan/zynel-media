@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css"></head><body><div id="stage"></div>
+<script src="engine.js"></script><script>
+const HEART='<svg viewBox="0 0 24 24"><path fill="#F26363" d="M12 21s-7.5-4.6-9.6-9.2C.8 8 3 4.5 6.6 4.5c2 0 3.5 1 5.4 3 1.9-2 3.4-3 5.4-3 3.600 0 5.800 3.500 4.200 7.300C19.500 16.400 12 21 12 21z"/></svg>';
+const CHAT='<svg viewBox="0 0 24 24"><path fill="#0B2B3E" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H10l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>';
+const scrim=(p)=>mk(p,'',null,{position:'absolute',left:0,right:0,bottom:0,height:'820px',background:'linear-gradient(transparent,rgba(11,43,62,.85))'});
+// 1) vídeo: gancho 0-3.6
+const s1=scene(0,3.6,NAVY);vid(s1,0,0,24);scrim(s1);
+phrase(s1,0,1.8,'<span class="nv">Pagas</span><br><span class="nv">anuncios…</span>',{top:'1080px',fontSize:'120px'});
+phrase(s1,1.8,3.6,'<span class="hl">sin medir<br>nada.</span>',{top:'1080px',fontSize:'120px'});
+// 2) gastas 3.6-6.0
+const s2=scene(3.6,6.0,NAVY);
+const c2=mk(s2,'card',null,{left:'70px',right:'70px',top:'330px',height:'600px'});pop(c2,3.7);
+mk(c2,'lab','Gasto en anuncios este mes',{position:'absolute',left:'60px',top:'60px'});
+const n2=mk(c2,'big','0 €',{position:'absolute',left:'60px',top:'200px',fontSize:'210px'});count(n2,3.8,5.5,0,2480,fmtEur);
+const bar=mk(c2,'',null,{position:'absolute',left:'60px',right:'60px',bottom:'70px',height:'26px',borderRadius:'13px',background:'#0B2B3E22',overflow:'hidden'});
+const bf=mk(bar,'',null,{height:'100%',width:'100%',background:CORAL,borderRadius:'13px',transformOrigin:'0 50%'});A(bf,3.8,1.7,[{transform:'scaleX(0)'},{transform:'scaleX(1)'}],'ease-out');
+phrase(s2,3.8,6.0,'Gastas sin saber<br><span class="hl t">a dónde va.</span>',{top:'1120px',fontSize:'112px'});
+// 3) crees 6.0-8.6
+const s3=scene(6.0,8.4,TEAL);
+const c3=mk(s3,'card',null,{left:'70px',right:'70px',top:'330px',height:'560px'});pop(c3,6.1);
+mk(c3,'lab','Tu último anuncio',{position:'absolute',left:'60px',top:'56px'});
+mk(c3,'',HEART,{position:'absolute',left:'60px',top:'190px',width:'110px',height:'110px'});
+const v1=mk(c3,'big','0',{position:'absolute',left:'200px',top:'178px',fontSize:'130px'});count(v1,6.2,7.6,0,1284,fmtInt);
+mk(c3,'',CHAT,{position:'absolute',left:'60px',top:'350px',width:'110px',height:'110px'});
+const v2=mk(c3,'big','0',{position:'absolute',left:'200px',top:'338px',fontSize:'130px'});count(v2,6.3,7.6,0,96,fmtInt);
+const sale=mk(s3,'',null,{position:'absolute',left:'110px',right:'110px',top:'960px',padding:'30px 40px',borderRadius:'44px',background:CORAL,color:'#fff',fontWeight:700,fontSize:'96px',textAlign:'center',boxShadow:'0 30px 60px rgba(0,0,0,.2)',transform:'rotate(-2deg)'});
+sale.innerHTML='VENTAS: 0';show(sale,7.2,8.4);A(sale,7.2,.5,[{opacity:0},{opacity:1}],'ease');
+phrase(s3,6.1,8.4,'<span class="nv">Muchos likes,</span><br><span class="nv">cero ventas.</span>',{top:'1300px',fontSize:'110px'});
+// 4) vídeo final: mide 8.6-12.0
+const s4=scene(8.4,12.0,NAVY);vid(s4,8.4,2.0,24,'v/g/',240);scrim(s4);
+phrase(s4,8.5,12.0,'<span class="hl t">Mide</span><br><span class="nv">lo que importa.</span>',{top:'1080px',fontSize:'120px'});
+endCard(12.0,15.6,NAVY,YEL);
+seek(0);window.ready=true;
+</script></body></html>
