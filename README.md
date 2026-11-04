@@ -4,7 +4,7 @@ Repositorio de imágenes y vídeos que se programan en GHL (se sirven por URL p�
 
 Estructura: `<cliente>/AAAA-MM/AAAA-MM-DD_plataformas_tema.ext`
 
-- `zynel/` – Zynel
+- `zynel/` – Zynel (publicaciones mensuales en `zynel/AAAA-MM/`; campaña de lanzamiento de OmniBrand en `zynel/omnibrand-campana/`, sin fecha hasta programarla)
 - `mayte/` – Centro Dental Mayte Montesinos
 
 URL: `https://raw.githubusercontent.com/carlosbarrajoncatalan/zynel-media/main/<cliente>/AAAA-MM/<archivo>`
